@@ -1,0 +1,42 @@
+<!DOCTYPE html5>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="Author" content="Julen Udaeta">
+		<title>Electronic Parts</title>
+		<link rel="shortcut icon"type="image/x-icon"href="Extras/Imagenes/ea.ico"/>
+		<link rel="stylesheet" type="text/css" href="juego.css">
+		<script type="text/javascript" src="juego.js"></script>
+	</head>
+	<body onload="juego()">
+		<br>
+		<div id="game">
+					  <div id="sky"></div>
+					  <div id="mountains">
+					    <div class="mountain"></div>
+					    <div class="mountain"></div>
+					    <div class="mountain"></div>
+					    <div class="mountain"></div>
+					  </div>
+					  <div id="terrain"></div>
+					  <div id="fog" class="hidden"></div>
+					  <canvas id="road"></canvas>
+					  <div id="cars"></div>
+					  <div id="car" class="player car"></div>
+					  <div id="ui">
+					    <div id="panel">
+					      <div id="km"><a></a><a>0</a><a>0</a><a>0</a><a>0</a><a>0</a></div>
+					      <div id="lap"><a>1</a></div>
+					      <div id="position"><a>P</a><a>2</a><a>0</a><a>0</a></div>
+					    </div>
+					 </div>
+				</div>
+					<p>
+					  <button id="left">◀️</button>
+					  <button id="up">⏏️</button>
+					  <button id="right">▶️</button>
+					</p>
+					<p><button id="click">Click para empezar!</button></p>
+					<p>Usa las Flechas o WASD para conducir<br> 
+					</p>
+	</body>

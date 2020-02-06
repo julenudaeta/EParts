@@ -1,0 +1,218 @@
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 500%;
+	font-family: 'Alata', sans-serif;
+	 text-decoration: underline;
+}
+
+body{
+	background: url("https://images.alphacoders.com/444/thumb-1920-444773.jpg");
+	background-size: cover;
+}
+
+#contacto{
+	display: flex;
+	align-content: center;
+}
+
+#duda{
+	font-size: 200%;
+	font-family: 'Gayathri', sans-serif;
+	width: 80%;
+}
+
+#iconos{
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+}
+
+#todo{
+	background-color: white;
+	width: 85%;
+	margin: 2% auto;
+	padding: 3%;
+	border: 1px solid;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	margin-top: 0%;
+	margin-bottom: 0.7%;
+}
+
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+.acordeon input {
+	display: none;
+}
+
+.acordeon__titulo {
+	display: block;
+	padding: 15px;
+	background: dodgerblue;
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+	border-radius: 10px;
+	font-family: 'Alata', sans-serif;
+	text-align: center;
+}
+.acordeon__titulo:hover {
+	background: #0000cc;
+}
+
+.acordeon__contenido {
+	display: flex;
+	justify-content: space-around;
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+	transition: all 0.5s;
+}
+
+.acordeon input:checked ~ .acordeon__contenido{
+	height: auto;
+	margin: 15px 0;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  justify-content: space-around;
+  border-radius: 10px;
+  font-family: 'Alata', sans-serif;
+
+}
+
+#menu > div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 15px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 150%;
+  border-radius: 10px;
+}
+
+#menu > div > a{
+ 	text-decoration: none;
+  	color:black;
+}
+
+#menu div:hover {
+	background-color: #0066ff;
+	color: white;
+}
+
+.sticky {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 79%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.tienda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#noticia {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Alata', sans-serif;
+	text-align: justify;
+	border: 0.5px solid;
+	// position: fixed;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	padding: 1%;
+}
+
+#pc {
+	border: 1px solid;
+}
+
+#texto1 {
+	width: 40%;
+}
+
+#noticia2 {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Alata', sans-serif;
+	text-align: justify;
+	border: 0.5px solid;
+	// position: fixed;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	padding: 1%;
+}
+
+#texto2 {
+	width: 40%;
+} 
+
+#cable{
+	border: 1px solid;
+}
+
+footer {
+	width: 107.75%;
+	border-top: black 7px solid;
+	background-color: #8c8c8c;
+	margin-bottom: -4.75%;
+	margin-left: -3.85%;
+}
+
+.pie{
+	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+  	margin: 1%;
+}
+
+.derechos{
+	font-family: 'Alata', sans-serif;
+	font-size: 90%;
+	text-align: center;
+}
+
+#datos{
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+#Enviar {
+	font-family: 'Alata', sans-serif;
+	padding: 1%;
+	border-radius: 13px;
+	background: #00cc00;
+	font-size: 25px;
+	color: white;
+}
+#Enviar:hover {
+  	opacity: 0.75;
+}
